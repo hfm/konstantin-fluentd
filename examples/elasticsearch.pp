@@ -1,5 +1,13 @@
 include fluentd
 
+package { [
+  'gcc',
+  'make',
+]:
+  ensure => installed,
+  before => Fluentd::Plugin['fluent-plugin-elasticsearch'],
+}
+
 fluentd::plugin { 'fluent-plugin-elasticsearch': }
 
 fluentd::config { '500_elasticsearch.conf':
