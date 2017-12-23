@@ -257,7 +257,7 @@ Config Hash, please see usage examples.
 
 ## Limitations
 
-Tested on CentOS 6, CentOS 7, Ubuntu 14.04, Debian 7.8
+Tested on CentOS 6, CentOS 7, Ubuntu 14.04, Debian 7, 8, 9.
 
 ## Development
 

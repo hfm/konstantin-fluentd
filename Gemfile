@@ -9,7 +9,7 @@ gem 'metadata-json-lint'
 gem 'rspec-puppet', '~> 2.4'
 gem 'puppetlabs_spec_helper', '~> 1.1'
 
-gem 'beaker-rspec', '~> 5.3'
+gem 'beaker-rspec', '~> 6.2'
 gem 'beaker-puppet_install_helper', '~> 0.4'
 
 gem 'rspec', '~> 3.5'
